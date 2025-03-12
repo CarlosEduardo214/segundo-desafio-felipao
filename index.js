@@ -6,3 +6,7 @@ function diminuir(vitorias, derrotas){
 	let diminuicao = vitorias - derrotas
     return diminuicao
 }
+
+if (resultado <=10){
+    console.log("O Herói tem saldo de " + resultado + " vitórias e está no nível Ferro")
+}
